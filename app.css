@@ -1,0 +1,121 @@
+body {
+  background-color: #f5d9df;
+  font-family: "DynaPuff", system-ui;
+}
+
+.navbar-brand {
+  color: #ea1c2c;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.navbar-brand:hover {
+  color: #ea1c2c;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #ea1c2c;
+  font-size: 1.7rem;
+}
+
+.btn {
+  transition: all 0.1.5s ease-in-out;
+}
+
+.navbar {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.navbar-toggler:hover {
+  padding: 0.4% 0.8%;
+  color: #ea1c2c;
+}
+
+.navbar-toggler {
+  color: rgba(148, 209, 233, 0);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='red' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+
+.headings h2 {
+  font-weight: 200;
+  font-size: 3.5rem;
+}
+
+.slash span {
+  color: red;
+}
+
+.heading2 {
+  color: red;
+  font-weight: 200;
+  font-size: 2.5rem;
+}
+
+.r2 {
+  margin-top: 1rem;
+}
+
+.r2 p {
+  color: #f498b8;
+  line-height: 2;
+  font-size: 1.125rem;
+  font-weight: 100;
+}
+
+@media (max-width: 1200px) {
+  .headings h2 {
+    font-size: 3rem;
+    font-weight: 100;
+  }
+
+  .heading2 {
+    font-size: 2rem;
+  }
+
+  .lolli {
+    height: 20%;
+  }
+
+  .r2 p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .headings h2 {
+    display: none;
+  }
+
+  .r2 p {
+    font-size: 0.9rem;
+  }
+}
+
+.navbar.scrolled {
+  background-color: #dec0de;
+  transition: background 0.5s, box-shadow 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .r2 p {
+    font-size: 1.2rem;
+  }
+}
