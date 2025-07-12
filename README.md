@@ -22,5 +22,3 @@ A vibrant and responsive landing page inspired by a candy-themed museum. Built u
 This project is inspired by the Museum of Candy landing page concept from [Colt Steele's Web Dev Bootcamp](https://www.udemy.com/course/the-web-developer-bootcamp/). It's a great exercise in responsive layouts and Bootstrap component usage.
 
 ---
-
-© 2025 \[Hrishabh Bhandari]
